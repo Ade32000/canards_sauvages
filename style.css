@@ -1,0 +1,38 @@
+#entete
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	/*width: 100%;*/
+	justify-content: space-between;
+
+
+}
+#logo
+{
+	max-width: 50px;
+}
+.head
+{
+
+	display: flex;
+	/*display: inline-flex;*/
+	flex-direction: row;
+	
+}
+
+#menu
+{
+	display: flex;
+	justify-content: flex-end;
+	background-image: url("menu_icon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	
+}
+#selection
+{
+	background-image: url("menu_icon.png");
+
+}
