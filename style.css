@@ -99,3 +99,8 @@ h3, h4
 {
 	display: none;
 }
+
+#valider{
+	margin-left: 80%;
+	margin-bottom: 2%;
+}
