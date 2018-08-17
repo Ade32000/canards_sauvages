@@ -1,3 +1,8 @@
+#bodyinter
+{
+	width: 80%;
+	margin: auto;
+}
 #entete
 {
 	display: flex;
@@ -5,12 +10,13 @@
 	flex-wrap: nowrap;
 	/*width: 100%;*/
 	justify-content: space-between;
-
-
+	background-color: #f5783a;
 }
 #logo
 {
-	max-width: 50px;
+	max-width: 55px;
+	margin-left: 30px;
+	margin-right: 20px;
 }
 .head
 {
@@ -21,18 +27,75 @@
 	
 }
 
-#menu
-{
-	display: flex;
-	justify-content: flex-end;
-	background-image: url("menu_icon.png");
-	background-repeat: no-repeat;
-	background-size: contain;
-	
-	
-}
+
 #selection
 {
 	background-image: url("menu_icon.png");
 
+}
+#formulaire
+{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	width: 50%;
+	height: 500px;
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-top: 50px;
+}
+h2
+{
+	align-self: center;
+}
+.form
+{
+
+}
+#bodyform
+{
+	
+	
+	background-image: url("fond_form.jpg");
+}
+#titreform
+{
+	display: flex;
+	align-self: : flex-start;
+}
+#presentation
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	background-color: rgba(255, 245, 230, 0.5);
+	margin-top: 30px;
+	padding: 5%;
+}
+#btn
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+#btnbtn
+{
+	width: 300px;
+	height: 50px;
+	align-self: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	border-top: 2px solid orange;
+	border-bottom: 2px solid orange;
+}
+h3, h4
+{
+	align-self: center;
+}
+#formulaire
+{
+	display: none;
 }
